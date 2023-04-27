@@ -35,12 +35,12 @@ No-show: Yes or No
 
 **Model**
 
-The model used in this project is a logistic regression classifier,random forest classifier ,extra tree classifier,gradient boost classifier,XGB boost classifier. The model is trained on the training set and evaluated on the test set. The evaluation metrics used in this project are accuracy, precision, recall, and F1 score.
+The model used in this project is a logistic regression classifier,random forest classifier ,extra tree classifier,gradient boost classifier,XGB boost classifier. The model is trained on the training set and evaluated on the test set. The target undersampled since, the data was in 80:20 ratio it would lead to bias model so I undersampled both the Majority class.The evaluation metrics used in this project are accuracy, precision, recall, and F1 score.
 Amonst all these models Gradient Boost classifier performed well.
 
 **Results**
 
-Amongst all these models Gradient Boost classifier performed well with 68%  training accuracy , 67 is testing accuracy , with precision of 75 means that out of all the patients that the model predicted as no-shows, 75% of them actually did not show up for their appointments, a recall of 55 means that the model correctly identified 55% of all the patients who did not show up for their appointments , an F1 score of 63 means that the model has achieved a reasonable balance between precision and recall.
+Amongst all these models Gradient Boost classifier performed well with 68%  training accuracy , 67% is testing accuracy , with precision of 75 means that out of all the patients that the model predicted as no-shows, 75% of them actually did not show up for their appointments, a recall of 55 means that the model correctly identified 55% of all the patients who did not show up for their appointments , an F1 score of 63 means that the model has achieved a reasonable balance between precision and recall.
 
 **Conclusion**
 In conclusion, this project demonstrated that it is possible to predict whether a patient will show up for their scheduled medical appointment or not with reasonable accuracy using gradient boost regression. The model can be used by healthcare providers to identify patients who are at risk of not showing up for their appointments and take appropriate measures to ensure that they attend their appointments.
@@ -51,3 +51,5 @@ In conclusion, this project demonstrated that it is possible to predict whether 
 **Quick Glance**
 
 <img width="348" alt="image" src="https://user-images.githubusercontent.com/119112861/234960158-db1863fa-dd2b-4f00-87ee-49d611a02abc.png">
+
+<img width="722" alt="image" src="https://user-images.githubusercontent.com/119112861/234961067-2746a82f-2b80-44c1-9860-ab8c1e28cc7a.png">
