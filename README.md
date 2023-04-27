@@ -1,6 +1,6 @@
 **Medical Appointments NoShow**
 
-This project aims to predict whether a patient will show up for their scheduled medical appointment or not. The dataset used in this project is provided by Kaggle and contains information on over 100,000 medical appointments in Brazil, including the patient's age, gender, medical history, and more.
+This project aims to predict whether a patient will show up for their scheduled medical appointment or not. The dataset used in this project is provided by Kaggle and contains information on over 110527 medical appointments in Brazil, including the patient's age, gender, medical history, and more.
 
 **Getting Started**
 
